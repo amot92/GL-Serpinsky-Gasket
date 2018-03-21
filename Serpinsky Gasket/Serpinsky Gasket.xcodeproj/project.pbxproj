@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACB27D3F2030F1D2002FCB6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB27D3E2030F1D2002FCB6A /* main.cpp */; };
+		AC6047442056EB22005D2567 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC6047432056EB22005D2567 /* main.cpp */; };
+		AC60474C2056EB4D005D2567 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC60474B2056EB4D005D2567 /* OpenGL.framework */; };
+		AC60474E2056EB53005D2567 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC60474D2056EB53005D2567 /* GLUT.framework */; };
+		AC6047502056EB83005D2567 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC60474F2056EB83005D2567 /* libGLEW.2.1.0.dylib */; };
+		AC6047522056EB94005D2567 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6047512056EB94005D2567 /* libglfw.3.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ACB27D392030F1D2002FCB6A /* CopyFiles */ = {
+		AC60473E2056EB22005D2567 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,110 +27,130 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ACB27D3B2030F1D2002FCB6A /* GraphicsAssignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GraphicsAssignment1; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB27D3E2030F1D2002FCB6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC6047402056EB22005D2567 /* Serpinsky Gasket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Serpinsky Gasket"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6047432056EB22005D2567 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC60474B2056EB4D005D2567 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AC60474D2056EB53005D2567 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		AC60474F2056EB83005D2567 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../../../../../opt/local/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		AC6047512056EB94005D2567 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../../../../../opt/local/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACB27D382030F1D2002FCB6A /* Frameworks */ = {
+		AC60473D2056EB22005D2567 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6047522056EB94005D2567 /* libglfw.3.2.dylib in Frameworks */,
+				AC6047502056EB83005D2567 /* libGLEW.2.1.0.dylib in Frameworks */,
+				AC60474E2056EB53005D2567 /* GLUT.framework in Frameworks */,
+				AC60474C2056EB4D005D2567 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACB27D322030F1D2002FCB6A = {
+		AC6047372056EB22005D2567 = {
 			isa = PBXGroup;
 			children = (
-				ACB27D3D2030F1D2002FCB6A /* GraphicsAssignment1 */,
-				ACB27D3C2030F1D2002FCB6A /* Products */,
+				AC6047422056EB22005D2567 /* Serpinsky Gasket */,
+				AC6047412056EB22005D2567 /* Products */,
+				AC60474A2056EB4D005D2567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		ACB27D3C2030F1D2002FCB6A /* Products */ = {
+		AC6047412056EB22005D2567 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACB27D3B2030F1D2002FCB6A /* GraphicsAssignment1 */,
+				AC6047402056EB22005D2567 /* Serpinsky Gasket */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACB27D3D2030F1D2002FCB6A /* GraphicsAssignment1 */ = {
+		AC6047422056EB22005D2567 /* Serpinsky Gasket */ = {
 			isa = PBXGroup;
 			children = (
-				ACB27D3E2030F1D2002FCB6A /* main.cpp */,
+				AC6047432056EB22005D2567 /* main.cpp */,
 			);
-			path = GraphicsAssignment1;
+			path = "Serpinsky Gasket";
+			sourceTree = "<group>";
+		};
+		AC60474A2056EB4D005D2567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC6047512056EB94005D2567 /* libglfw.3.2.dylib */,
+				AC60474F2056EB83005D2567 /* libGLEW.2.1.0.dylib */,
+				AC60474D2056EB53005D2567 /* GLUT.framework */,
+				AC60474B2056EB4D005D2567 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACB27D3A2030F1D2002FCB6A /* GraphicsAssignment1 */ = {
+		AC60473F2056EB22005D2567 /* Serpinsky Gasket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACB27D422030F1D2002FCB6A /* Build configuration list for PBXNativeTarget "GraphicsAssignment1" */;
+			buildConfigurationList = AC6047472056EB22005D2567 /* Build configuration list for PBXNativeTarget "Serpinsky Gasket" */;
 			buildPhases = (
-				ACB27D372030F1D2002FCB6A /* Sources */,
-				ACB27D382030F1D2002FCB6A /* Frameworks */,
-				ACB27D392030F1D2002FCB6A /* CopyFiles */,
+				AC60473C2056EB22005D2567 /* Sources */,
+				AC60473D2056EB22005D2567 /* Frameworks */,
+				AC60473E2056EB22005D2567 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GraphicsAssignment1;
-			productName = GraphicsAssignment1;
-			productReference = ACB27D3B2030F1D2002FCB6A /* GraphicsAssignment1 */;
+			name = "Serpinsky Gasket";
+			productName = "Serpinsky Gasket";
+			productReference = AC6047402056EB22005D2567 /* Serpinsky Gasket */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACB27D332030F1D2002FCB6A /* Project object */ = {
+		AC6047382056EB22005D2567 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Adam Oakes";
 				TargetAttributes = {
-					ACB27D3A2030F1D2002FCB6A = {
+					AC60473F2056EB22005D2567 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = ACB27D362030F1D2002FCB6A /* Build configuration list for PBXProject "GraphicsAssignment1" */;
+			buildConfigurationList = AC60473B2056EB22005D2567 /* Build configuration list for PBXProject "Serpinsky Gasket" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ACB27D322030F1D2002FCB6A;
-			productRefGroup = ACB27D3C2030F1D2002FCB6A /* Products */;
+			mainGroup = AC6047372056EB22005D2567;
+			productRefGroup = AC6047412056EB22005D2567 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACB27D3A2030F1D2002FCB6A /* GraphicsAssignment1 */,
+				AC60473F2056EB22005D2567 /* Serpinsky Gasket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACB27D372030F1D2002FCB6A /* Sources */ = {
+		AC60473C2056EB22005D2567 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB27D3F2030F1D2002FCB6A /* main.cpp in Sources */,
+				AC6047442056EB22005D2567 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ACB27D402030F1D2002FCB6A /* Debug */ = {
+		AC6047452056EB22005D2567 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,14 +198,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		ACB27D412030F1D2002FCB6A /* Release */ = {
+		AC6047462056EB22005D2567 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,24 +247,33 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		ACB27D432030F1D2002FCB6A /* Debug */ = {
+		AC6047482056EB22005D2567 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ACB27D442030F1D2002FCB6A /* Release */ = {
+		AC6047492056EB22005D2567 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -248,25 +281,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACB27D362030F1D2002FCB6A /* Build configuration list for PBXProject "GraphicsAssignment1" */ = {
+		AC60473B2056EB22005D2567 /* Build configuration list for PBXProject "Serpinsky Gasket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACB27D402030F1D2002FCB6A /* Debug */,
-				ACB27D412030F1D2002FCB6A /* Release */,
+				AC6047452056EB22005D2567 /* Debug */,
+				AC6047462056EB22005D2567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACB27D422030F1D2002FCB6A /* Build configuration list for PBXNativeTarget "GraphicsAssignment1" */ = {
+		AC6047472056EB22005D2567 /* Build configuration list for PBXNativeTarget "Serpinsky Gasket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACB27D432030F1D2002FCB6A /* Debug */,
-				ACB27D442030F1D2002FCB6A /* Release */,
+				AC6047482056EB22005D2567 /* Debug */,
+				AC6047492056EB22005D2567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACB27D332030F1D2002FCB6A /* Project object */;
+	rootObject = AC6047382056EB22005D2567 /* Project object */;
 }
